@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #081122;
+}
+
+.lol-icon {
+  position: relative;
+  height: 100px;
+  width: 400px;
+  border: 2px solid #2e271f;
+  background-color: #030b16;
+}
+
+.lol-icon img {
+  height: 115px;
+  position: absolute;
+  left: -25px;
+  top: -10px;
+  z-index: 5;
+}
+
+.lol-icon__box {
+  height: 100px;
+  background-image: linear-gradient(#08acaa, #01678b);
+  color: #e9e0cc;
+  width: 332px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  clip-path: polygon(2% 7%, 2% 93%, 87% 93%, 98% 50%, 87% 7%);
+  z-index: 2;
+  box-shadow: 0 2px 3px red;
+  filter: drop-shadow(3px 6px 3px rgba(50, 50, 0, 1));
+}
+
+.lol-icon__button {
+  height: 90px;
+  background-color: #1e2328;
+  color: #e9e0cc;
+  width: 317px;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  border: 0;
+  font-size: 36px;
+  font-family: auto;
+  font-weight: bold;
+  letter-spacing: 3px;
+  clip-path: polygon(2% 7%, 2% 93%, 88% 93%, 98% 50%, 88% 7%);
+}
+
+.lol-icon__overlay {
+  height: 80px;
+  width: 264px;
+  border: 3px solid #092D37;
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  opacity: 0.6;
+  z-index: 1;
+  background: #040d19;
+  box-shadow: 1px 1px 2px #092d37, 1px -1px 2px #092d37;
+}
+.lol-icon__circle {
+  position: absolute;
+  height: 85px;
+  width: 62px;
+  border-radius: 50%;
+  z-index: 3;
+  background: linear-gradient(#08acaa, #01678b);
+  top: 7px;
+  left: 42px;
+}
+.lol-icon__circle--black {
+  position: absolute;
+  height: 82px;
+  width: 64px;
+  border-radius: 50%;
+  z-index: 3;
+  background: #040d19;
+  top: 8px;
+  left: 34px;
+}
+
+.lol-icon__fix {
+  background: #040d19;
+  z-index: 4;
+  height: 96px;
+  position: absolute;
+  width: 13px;
+  left: 59px;
+}
